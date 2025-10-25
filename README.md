@@ -16,9 +16,8 @@ The project includes:
 - Secure Facebook OAuth 2.0 flow  
 - Token storage in PostgreSQL with automatic table setup  
 - Modular backend using Express routes and controllers  
-- Simple, user-friendly frontend with React + Axios  
-- Scalable codebase with environment-based configuration  
-
+- Simple, user-friendly frontend with React + Axios
+  
 ---
 
 ## Tech Stack
