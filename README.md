@@ -84,19 +84,19 @@ cd facebook-integration-frontend
 npm install
 npm run dev
 
-Database Schema
+🗄️ Database Schema
 
 Table: integrations
 
-Column	Type	Description
-id	SERIAL	Auto-increment primary key
-integration_id	UUID	Unique integration record
-page_url	TEXT	Facebook page link
+Column Name	Type	Description
+id	SERIAL	Auto-incremented primary key
+integration_id	UUID	Unique identifier for each integration record
+page_url	TEXT	Facebook Page URL
 user_id	TEXT	Facebook user ID
 first_name	TEXT	User’s first name
 last_name	TEXT	User’s last name
-email	TEXT	User’s email
-access_token	TEXT	Access token for Graph API
-refresh_token	TEXT	(Optional) reserved for future use
-token_expires_at	TIMESTAMP	Token expiry (default +60 days)
-created_at	TIMESTAMP	Record creation timestamp
+email	TEXT	User’s email (may be unavailable in dev mode)
+access_token	TEXT	Facebook OAuth access token
+refresh_token	TEXT	Reserved for future use
+token_expires_at	TIMESTAMP	Access token expiration time
+created_at	TIMESTAMP	Record creation timestamp (default current time)
