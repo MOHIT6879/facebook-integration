@@ -34,24 +34,32 @@ The project includes:
 
 ## Folder Structure
 
-project-root/
+Facebook-Integration
 │
-├── backend/
-│ ├── controllers/
+├── Facebook-Integration-backend
+│ ├── controllers
 │ │ └── facebookController.js
-│ ├── db/
+│ ├── db
 │ │ └── connect.js
-│ ├── routes/
+│ ├── node_modules
+│ ├── routes
 │ │ └── facebookRoutes.js
-│ ├── server.js
 │ ├── .env
+│ └── server.js
 │
-├── frontend/
-│ ├── src/
-│ │ └── FacebookConnect.jsx
-│ ├── package.json
-│
-└── README.md
+└── Facebook-Integration-frontend
+├── node_modules
+├── public
+│ └── vite.svg
+└── src
+├── assets
+│ └── react.svg
+├── components
+│ └── FacebookConnect.jsx
+├── App.css
+├── App.jsx
+├── index.css
+└── main.jsx
 
 ---
 
