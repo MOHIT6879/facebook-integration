@@ -81,15 +81,15 @@ Facebook-Integration
 
 Create a `.env` file inside the `backend` folder with the following content:
 
-FACEBOOK_CLIENT_ID=your_facebook_app_id
-FACEBOOK_CLIENT_SECRET=your_facebook_app_secret
-FACEBOOK_REDIRECT_URI=http://localhost:5000/api/facebook/callback
+FACEBOOK_CLIENT_ID=your_facebook_app_id  
+FACEBOOK_CLIENT_SECRET=your_facebook_app_secret  
+FACEBOOK_REDIRECT_URI=http://localhost:5000/api/facebook/callback  
 
-PG_USER=postgres
-PG_PASSWORD=yourpassword
-PG_HOST=localhost
-PG_DATABASE=facebook_integration
-PG_PORT=5432/5433
+PG_USER=postgres  
+PG_PASSWORD=yourpassword  
+PG_HOST=localhost  
+PG_DATABASE=facebook_integration  
+PG_PORT=5432/5433  
 
 ## How to Run the Project
 
