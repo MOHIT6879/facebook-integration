@@ -34,6 +34,7 @@ The project includes:
 
 ## Folder Structure
 
+```
 Facebook-Integration
 │
 ├── Facebook-Integration-backend
@@ -60,7 +61,7 @@ Facebook-Integration
 ├── App.jsx
 ├── index.css
 └── main.jsx
-
+```
 ---
 
 ## OAuth 2.0 Flow Explained
