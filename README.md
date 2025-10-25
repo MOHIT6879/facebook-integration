@@ -95,15 +95,15 @@ PG_PORT=5432/5433
 
 1️ Backend Setup
 
-cd facebook-integration-backend
-node server.js
-Your backend will run on: http://localhost:5000
+cd facebook-integration-backend  
+node server.js  
+Your backend will run on: http://localhost:5000  
 
-2️ Frontend Setup
+2️ Frontend Setup  
 
 
-cd facebook-integration-frontend
-npm run dev
+cd facebook-integration-frontend  
+npm run dev  
 
 ## Database Schema
 
